@@ -12,6 +12,13 @@ struct MytextView: View{
     @State
     private var index: Int = 0
     
+    @Binding
+    var isActivated: Bool
+    
+    init(isActivated: Binding<Bool> = .constant(false)){
+        _isActivated = isActivated
+    }
+    
     // 배경색 배열
         private let backgroundColor = [
             Color.red,
@@ -30,7 +37,11 @@ struct MytextView: View{
             Text("배경 아이템 인덱스")
                 .font(.system(size: 30))
                 .fontWeight(.bold)
-                .frame(minWidth: 0, maxWidth: .infinity, minHeight: 0, maxHeight: .infinity)
+                .frame(minWidth: 0, maxWidth: .infinity, minHeight: 0, maxHeight: 100)
+            Text("활성화 상태: \(String(isActivated))")
+                .font(.system(size: 30))
+                .fontWeight(.bold)
+                .foregroundColor(isActivated ? Color.yellow : Color.gray)
             
             Spacer()
             

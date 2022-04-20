@@ -8,6 +8,14 @@
 import SwiftUI
 
 struct MystackView: View{
+    
+    @Binding
+    var isActivated: Bool
+    
+    init(isActivated: Binding<Bool> = .constant(false)){
+        _isActivated = isActivated
+    }
+    
     var body: some View {
         VStack{
             Text("1!")
@@ -16,8 +24,9 @@ struct MystackView: View{
                 .font(.system(size: 30))
             Text("3!")
                 .font(.system(size: 30))
-        }
-        .background(Color.orange)
+        }                               
+        .background(self.isActivated ? Color.green : Color.orange)
+        .padding(self.isActivated ? 10.0 : 0 )
     }
     struct ContentView_Previews: PreviewProvider {
         static var previews: some View {
