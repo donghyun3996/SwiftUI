@@ -19,4 +19,9 @@ struct MystackView: View{
         }
         .background(Color.orange)
     }
+    struct ContentView_Previews: PreviewProvider {
+        static var previews: some View {
+            MystackView()
+        }
+}
 }

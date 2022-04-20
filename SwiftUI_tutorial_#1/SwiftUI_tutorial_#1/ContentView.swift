@@ -8,19 +8,44 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State
+    private var isActivated: Bool = false
+    
     var body: some View {
-        HStack{
-        MystackView()
-        MystackView()
-        MystackView()
-        }
-        .padding(10.0)
-        .background(Color.yellow)
+        NavigationView{
+            VStack{
+                HStack{
+                MystackView()
+                MystackView()
+                MystackView()
+                }
+                .padding(isActivated ? 50.0 : 10.0)
+                .background(isActivated ? Color.yellow : Color.black )
+                .onTapGesture {
+                    withAnimation{
+                        self.isActivated.toggle()
+                    }
+                    
+                }
+                NavigationLink(destination: MytextView()){
+                    Text("네비게이션")
+                        .font(.system(size: 40))
+                        .fontWeight(.bold)
+                        .padding()
+                        .background(Color.orange)
+                        .foregroundColor(Color.white)
+                        .cornerRadius(30)
+                }.padding(.top, 50)
+            }
+            }
+            
+            
+            
+            
         
         }
-        
-        
-    }
+}
 
 
 struct ContentView_Previews: PreviewProvider {

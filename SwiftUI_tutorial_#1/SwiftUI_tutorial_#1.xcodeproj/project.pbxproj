@@ -12,6 +12,7 @@
 		C9FE814A280ECC39009FE2DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9FE8149280ECC39009FE2DB /* Assets.xcassets */; };
 		C9FE814D280ECC39009FE2DB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9FE814C280ECC39009FE2DB /* Preview Assets.xcassets */; };
 		C9FE8154280ED6E3009FE2DB /* MyVstackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9FE8153280ED6E3009FE2DB /* MyVstackView.swift */; };
+		C9FE8158280F949A009FE2DB /* MytextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9FE8157280F949A009FE2DB /* MytextView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		C9FE8149280ECC39009FE2DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C9FE814C280ECC39009FE2DB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C9FE8153280ED6E3009FE2DB /* MyVstackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyVstackView.swift; sourceTree = "<group>"; };
+		C9FE8157280F949A009FE2DB /* MytextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MytextView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 			children = (
 				C9FE8145280ECC38009FE2DB /* SwiftUI_tutorial__1App.swift */,
 				C9FE8147280ECC38009FE2DB /* ContentView.swift */,
+				C9FE8157280F949A009FE2DB /* MytextView.swift */,
 				C9FE8153280ED6E3009FE2DB /* MyVstackView.swift */,
 				C9FE8149280ECC39009FE2DB /* Assets.xcassets */,
 				C9FE814B280ECC39009FE2DB /* Preview Content */,
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C9FE8148280ECC38009FE2DB /* ContentView.swift in Sources */,
+				C9FE8158280F949A009FE2DB /* MytextView.swift in Sources */,
 				C9FE8146280ECC38009FE2DB /* SwiftUI_tutorial__1App.swift in Sources */,
 				C9FE8154280ED6E3009FE2DB /* MyVstackView.swift in Sources */,
 			);
