@@ -10,7 +10,7 @@ import SwiftUI
 struct MyProjectCard: View{
     var body: some View
     {
-        VStack(alignment: .leading){
+        VStack(alignment: .leading, spacing: 0){
             Rectangle().frame( height: 0 )
             Text("이동현 유튜브 프로젝트")
                 .font(.system(size: 23))

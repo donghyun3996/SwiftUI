@@ -11,6 +11,7 @@
 		C925DC4D2816DF5C00AF3DC1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C925DC4C2816DF5C00AF3DC1 /* ContentView.swift */; };
 		C925DC4F2816DF5E00AF3DC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C925DC4E2816DF5E00AF3DC1 /* Assets.xcassets */; };
 		C925DC522816DF5E00AF3DC1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C925DC512816DF5E00AF3DC1 /* Preview Assets.xcassets */; };
+		C98A8EFD283E711E0015B70C /* MyBasicCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98A8EFC283E711E0015B70C /* MyBasicCard.swift */; };
 		C9F673F6281A81940063070F /* MyProjectCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F673F5281A81940063070F /* MyProjectCard.swift */; };
 /* End PBXBuildFile section */
 
@@ -20,6 +21,7 @@
 		C925DC4C2816DF5C00AF3DC1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C925DC4E2816DF5E00AF3DC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C925DC512816DF5E00AF3DC1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C98A8EFC283E711E0015B70C /* MyBasicCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBasicCard.swift; sourceTree = "<group>"; };
 		C9F673F5281A81940063070F /* MyProjectCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProjectCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -56,6 +58,7 @@
 				C925DC4A2816DF5C00AF3DC1 /* SwiftUI_Stack_tutorialApp.swift */,
 				C925DC4C2816DF5C00AF3DC1 /* ContentView.swift */,
 				C9F673F5281A81940063070F /* MyProjectCard.swift */,
+				C98A8EFC283E711E0015B70C /* MyBasicCard.swift */,
 				C925DC4E2816DF5E00AF3DC1 /* Assets.xcassets */,
 				C925DC502816DF5E00AF3DC1 /* Preview Content */,
 			);
@@ -142,6 +145,7 @@
 			files = (
 				C9F673F6281A81940063070F /* MyProjectCard.swift in Sources */,
 				C925DC4D2816DF5C00AF3DC1 /* ContentView.swift in Sources */,
+				C98A8EFD283E711E0015B70C /* MyBasicCard.swift in Sources */,
 				C925DC4B2816DF5C00AF3DC1 /* SwiftUI_Stack_tutorialApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
