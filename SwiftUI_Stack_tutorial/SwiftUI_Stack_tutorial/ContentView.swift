@@ -9,9 +9,45 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack{
-            Text("fkkk")
-              
+        ZStack(alignment: .bottomTrailing){
+        
+            VStack(alignment: .leading){
+            
+                HStack{
+                    Image(systemName: "line.horizontal.3")
+                        .font(.largeTitle)
+                }
+                
+                
+                Text("할일 목록")
+                    .font(.system(size: 40))
+                    .fontWeight(.black)
+            ScrollView{
+                VStack(){
+                    
+                    MyProjectCard()
+                    MyBasicCard()
+                    MyBasicCard()
+                    MyBasicCard()
+                    MyBasicCard()
+                    MyBasicCard()
+                    MyBasicCard()
+                    MyBasicCard()
+                    MyBasicCard()
+                
+            }.padding()
+        }
+            }
+            Circle()
+                .frame(width:60, height: 60)
+                .foregroundColor(Color.yellow)
+                .overlay{
+                    Image(systemName: "plus")
+                        .font(.system(size: 30))
+                        .foregroundColor(Color.white)
+                }
+                .padding(10)
+                .shadow(radius: 10)
             
         }
     }
