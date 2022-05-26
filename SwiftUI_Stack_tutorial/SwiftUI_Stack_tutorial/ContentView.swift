@@ -16,6 +16,10 @@ struct ContentView: View {
                 HStack{
                     Image(systemName: "line.horizontal.3")
                         .font(.largeTitle)
+                    
+                    Spacer()
+                    Image(systemName: "person.crop.circle.fill")
+                        .font(.largeTitle)
                 }
                 
                 
@@ -35,9 +39,13 @@ struct ContentView: View {
                     MyBasicCard()
                     MyBasicCard()
                 
-            }.padding()
+                }
         }
             }
+            .padding(.top, 20)
+            .padding(.horizontal, 20)
+            
+            
             Circle()
                 .frame(width:60, height: 60)
                 .foregroundColor(Color.yellow)
