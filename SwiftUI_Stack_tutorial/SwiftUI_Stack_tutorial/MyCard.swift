@@ -7,12 +7,18 @@
 
 import SwiftUI
 
-struct MyBasicCard: View{
+struct MyCard: View{
+    
+    var icon: String
+    var title: String
+    var start: String
+    var end:  String
+    var bgColor: Color
     
     var body: some View
     {
         HStack(spacing: 20){
-            Image(systemName: "flag.fill")
+            Image(systemName: icon)
                 .font(.system(size: 40))
                 .foregroundColor(Color.white)
             
@@ -20,29 +26,29 @@ struct MyBasicCard: View{
             
             VStack(alignment: .leading, spacing: 0){
                 Divider().opacity(0)
-            Text("ddd")
+            Text(title)
                     .font(.system(size: 23))
                     .fontWeight(.bold)
                     .foregroundColor(Color.white)
                 
                 Spacer().frame(height: 5)
                 
-            Text("ddd")
+            Text("\(start) - \(end)")
                     .foregroundColor(Color.white)
                     
             }
             
         }
         .padding(20)
-        .background(Color.purple)
+        .background(bgColor)
         .cornerRadius(20)
     
     }
     
     
-    struct MyBasicCard_Previews: PreviewProvider {
+    struct MyCard_Previews: PreviewProvider {
         static var previews: some View {
-            MyBasicCard()
+            MyCard(icon: "book.fill", title: "책읽기", start: "1 PM", end: "2 PM", bgColor: Color.green)
         }
     }
     

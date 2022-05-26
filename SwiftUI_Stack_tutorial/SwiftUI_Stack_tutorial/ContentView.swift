@@ -38,13 +38,10 @@ struct ContentView: View {
                     
                     MyProjectCard()
                     MyBasicCard()
-                    MyBasicCard()
-                    MyBasicCard()
-                    MyBasicCard()
-                    MyBasicCard()
-                    MyBasicCard()
-                    MyBasicCard()
-                    MyBasicCard()
+                    MyCard(icon: "tray.fill", title: "책상 정리하기", start: "10 AM", end: "11 AM", bgColor: Color.blue)
+                    MyCard(icon: "tv.fill", title: "영상 보기", start: "11 AM", end: "12 PM", bgColor: Color.red)
+                    MyCard(icon: "cart.fill", title: "장보기", start: "12 PM", end: "1 PM", bgColor: Color.orange)
+                    MyCard(icon: "gamecontroller.fill", title: "롤한판 조지기", start: "2 PM", end: "3 PM", bgColor: Color.blue)
                 
                     }.padding()
                 }
