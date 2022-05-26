@@ -11,7 +11,7 @@ struct ContentView: View {
     var body: some View {
         ZStack(alignment: .bottomTrailing){
         
-            VStack(alignment: .leading){
+            VStack(alignment: .leading, spacing: 0){
             
                 HStack{
                     Image(systemName: "line.horizontal.3")
@@ -21,11 +21,18 @@ struct ContentView: View {
                     Image(systemName: "person.crop.circle.fill")
                         .font(.largeTitle)
                 }
+                .padding(.top, 10)
+                    .padding(.leading, 20)
+                    .padding(.trailing, 20)
+                    .padding(.bottom, 10)
+                    
                 
                 
                 Text("할일 목록")
                     .font(.system(size: 40))
                     .fontWeight(.black)
+                    .padding(.horizontal, 20)
+                    
             ScrollView{
                 VStack(){
                     
@@ -39,12 +46,10 @@ struct ContentView: View {
                     MyBasicCard()
                     MyBasicCard()
                 
+                    }.padding()
                 }
-        }
             }
-            .padding(.top, 20)
-            .padding(.horizontal, 20)
-            
+           
             
             Circle()
                 .frame(width:60, height: 60)
