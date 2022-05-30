@@ -14,6 +14,7 @@
 		C98A8EFD283E711E0015B70C /* MyBasicCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98A8EFC283E711E0015B70C /* MyBasicCard.swift */; };
 		C98A8EFF283FC7820015B70C /* MyCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98A8EFE283FC7820015B70C /* MyCard.swift */; };
 		C98A8F012844E5E70015B70C /* MyList.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98A8F002844E5E70015B70C /* MyList.swift */; };
+		C98A8F0328450A640015B70C /* MyNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98A8F0228450A640015B70C /* MyNavigationView.swift */; };
 		C9F673F6281A81940063070F /* MyProjectCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F673F5281A81940063070F /* MyProjectCard.swift */; };
 /* End PBXBuildFile section */
 
@@ -26,6 +27,7 @@
 		C98A8EFC283E711E0015B70C /* MyBasicCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBasicCard.swift; sourceTree = "<group>"; };
 		C98A8EFE283FC7820015B70C /* MyCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCard.swift; sourceTree = "<group>"; };
 		C98A8F002844E5E70015B70C /* MyList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyList.swift; sourceTree = "<group>"; };
+		C98A8F0228450A640015B70C /* MyNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyNavigationView.swift; sourceTree = "<group>"; };
 		C9F673F5281A81940063070F /* MyProjectCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProjectCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -61,6 +63,7 @@
 			children = (
 				C925DC4A2816DF5C00AF3DC1 /* SwiftUI_Stack_tutorialApp.swift */,
 				C925DC4C2816DF5C00AF3DC1 /* ContentView.swift */,
+				C98A8F0228450A640015B70C /* MyNavigationView.swift */,
 				C98A8F002844E5E70015B70C /* MyList.swift */,
 				C98A8EFE283FC7820015B70C /* MyCard.swift */,
 				C9F673F5281A81940063070F /* MyProjectCard.swift */,
@@ -155,6 +158,7 @@
 				C98A8EFF283FC7820015B70C /* MyCard.swift in Sources */,
 				C925DC4B2816DF5C00AF3DC1 /* SwiftUI_Stack_tutorialApp.swift in Sources */,
 				C98A8F012844E5E70015B70C /* MyList.swift in Sources */,
+				C98A8F0328450A640015B70C /* MyNavigationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
