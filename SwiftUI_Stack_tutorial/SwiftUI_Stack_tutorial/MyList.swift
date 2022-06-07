@@ -43,6 +43,7 @@ struct MyList: View{
         .listStyle(GroupedListStyle())
         .navigationTitle("내 목록")
     }
+    
    
 }
     struct MyList_Previews: PreviewProvider {
