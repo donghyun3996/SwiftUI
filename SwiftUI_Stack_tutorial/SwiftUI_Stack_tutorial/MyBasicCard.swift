@@ -20,7 +20,7 @@ struct MyBasicCard: View{
             
             VStack(alignment: .leading, spacing: 0){
                 Divider().opacity(0)
-            Text("ddd")
+            Text("d")
                     .font(.system(size: 23))
                     .fontWeight(.bold)
                     .foregroundColor(Color.white)
