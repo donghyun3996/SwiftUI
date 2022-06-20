@@ -15,6 +15,7 @@
 		C98A8EFF283FC7820015B70C /* MyCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98A8EFE283FC7820015B70C /* MyCard.swift */; };
 		C98A8F012844E5E70015B70C /* MyList.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98A8F002844E5E70015B70C /* MyList.swift */; };
 		C98A8F0328450A640015B70C /* MyNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98A8F0228450A640015B70C /* MyNavigationView.swift */; };
+		C99136722860BA19001FA079 /* profileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99136712860BA19001FA079 /* profileView.swift */; };
 		C9F673F6281A81940063070F /* MyProjectCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F673F5281A81940063070F /* MyProjectCard.swift */; };
 /* End PBXBuildFile section */
 
@@ -28,6 +29,7 @@
 		C98A8EFE283FC7820015B70C /* MyCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCard.swift; sourceTree = "<group>"; };
 		C98A8F002844E5E70015B70C /* MyList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyList.swift; sourceTree = "<group>"; };
 		C98A8F0228450A640015B70C /* MyNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyNavigationView.swift; sourceTree = "<group>"; };
+		C99136712860BA19001FA079 /* profileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profileView.swift; sourceTree = "<group>"; };
 		C9F673F5281A81940063070F /* MyProjectCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProjectCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -64,6 +66,7 @@
 				C925DC4A2816DF5C00AF3DC1 /* SwiftUI_Stack_tutorialApp.swift */,
 				C925DC4C2816DF5C00AF3DC1 /* ContentView.swift */,
 				C98A8F0228450A640015B70C /* MyNavigationView.swift */,
+				C99136712860BA19001FA079 /* profileView.swift */,
 				C98A8F002844E5E70015B70C /* MyList.swift */,
 				C98A8EFE283FC7820015B70C /* MyCard.swift */,
 				C9F673F5281A81940063070F /* MyProjectCard.swift */,
@@ -152,6 +155,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C99136722860BA19001FA079 /* profileView.swift in Sources */,
 				C9F673F6281A81940063070F /* MyProjectCard.swift in Sources */,
 				C925DC4D2816DF5C00AF3DC1 /* ContentView.swift in Sources */,
 				C98A8EFD283E711E0015B70C /* MyBasicCard.swift in Sources */,
