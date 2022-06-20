@@ -9,13 +9,18 @@ import SwiftUI
 
 struct MyList: View{
     
-    init(){
+    @Binding var isNavigationBarHidden: Bool
+    
+    init(isNavigationBarHidden: Binding<Bool> = .constant(false )){
         if #available(iOS 14.0, *){
             
         }else{
             UITableView.appearance().tableFooterView = UIView()
         }
         UITableView.appearance().separatorStyle = .none
+        
+        
+        _isNavigationBarHidden = isNavigationBarHidden
     }
     
     
@@ -31,7 +36,7 @@ struct MyList: View{
 //        }
         List{
             
-            Section(header: Text("오늘 할 일")
+             Section(header: Text("오늘 할 일")
                 .font(.headline)
                 .foregroundColor(Color.black)
                 , footer: Text("footer")){
@@ -51,9 +56,14 @@ struct MyList: View{
             .listRowBackground(Color.yellow)
         }
         .listStyle(GroupedListStyle())
-        .navigationTitle("내 목록")
+        .navigationTitle("내 목록 ")
+        .listRowSeparator(.hidden)
+//        .navigationBarHidden(self.isNavigationBarHidden)
+        .onAppear{
+            self.isNavigationBarHidden = false
     }
-    
+        
+        }
    
 }
     struct MyList_Previews: PreviewProvider {

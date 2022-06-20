@@ -19,7 +19,7 @@ struct ContentView: View {
             VStack(alignment: .leading, spacing: 0){
             
                 HStack{
-                    NavigationLink(destination: MyList()){
+                    NavigationLink(destination: MyList(isNavigationBarHidden: self.$isNavigationBarHidden)){
                     Image(systemName: "line.horizontal.3")
                         .font(.largeTitle)
                         .foregroundColor(Color.black)
@@ -67,7 +67,7 @@ struct ContentView: View {
                 .shadow(radius: 10)
             
         }
-        .navigationTitle("메인")
+        .navigationTitle("뒤로가기")
         .navigationBarHidden(self.isNavigationBarHidden)
         .onAppear{
             self.isNavigationBarHidden = true
