@@ -9,6 +9,16 @@ import SwiftUI
 
 struct MyList: View{
     
+    init(){
+        if #available(iOS 14.0, *){
+            
+        }else{
+            UITableView.appearance().tableFooterView = UIView()
+        }
+        UITableView.appearance().separatorStyle = .none
+    }
+    
+    
     var body: some View{
 //        List{
 //            Text("마이리스트")
