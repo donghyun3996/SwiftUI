@@ -16,7 +16,7 @@ struct MyNavigarionView: View{
             MyList()
                 .navigationTitle("안녕하세요")
 //                .navigationBarTitleDisplayMode(.automatic)
-                .navigationBarItems(leading:
+                .navigationBarItems(leading: 
                 Button(action:{
                     print("호호")
                 }){
