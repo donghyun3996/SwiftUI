@@ -9,17 +9,26 @@ import SwiftUI
 
 struct profileView: View{
     var body: some View{
-//        NavigationView{
-//            navigationTitle("내 프로필")
-//            navigationBarItems( trailing:
-//                                    Button(
-//                                        action:{ print("호호")
-//                                        }){
-//                                            Image(systemName: "gear")
-//                                        }
-//            )
-//        }
-        Text("내프로필")
+        NavigationView{
+         
+            ScrollView{
+        VStack(){
+            
+        }
+         
+            
+        }
+            .navigationTitle("내 프로필")
+            .navigationBarItems( trailing:
+                                    Button(
+                                        action:{ print("호호")
+                                        }){
+                                            Image(systemName: "gear")
+                                                .font(.system(size: 20))
+                                                .foregroundColor(Color.black)
+                                        }
+            )
+        }
     }
 }
 
