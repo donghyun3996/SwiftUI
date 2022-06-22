@@ -14,7 +14,7 @@ struct profileView: View{
             ScrollView{
         VStack(){
             
-        }
+        
          MyCircleImageView()
                     .padding(.vertical, 20)
                 
@@ -46,21 +46,27 @@ struct profileView: View{
                         .background(Color.red)
                         .cornerRadius(20)
                 }
+                .padding(20)
+            Spacer()
+            Spacer()
+            Spacer()
+        }
+        
+        }
             
         }
-            .navigationTitle("내 프로필")
-            .navigationBarItems( trailing:
-                                    Button(
-                                        action:{ print("호호")
-                                        }){
-                                            NavigationLink(destination: Text("내프로필 설정")){
-                                            Image(systemName: "gear")
-                                                .font(.system(size: 20))
-                                                .foregroundColor(Color.black)
-                                            }
+        .navigationTitle("내 프로필")
+        .navigationBarItems( trailing:
+                                Button(
+                                    action:{ print("호호")
+                                    }){
+                                        NavigationLink(destination: Text("내프로필 설정")){
+                                        Image(systemName: "gear")
+                                            .font(.system(size: 20))
+                                            .foregroundColor(Color.black)
                                         }
-            )
-        }
+                                    }
+        )
     }
 }
 

@@ -25,8 +25,11 @@ struct ContentView: View {
                         .foregroundColor(Color.black)
                     }
                     Spacer()
+                    NavigationLink(destination: profileView()){
                     Image(systemName: "person.crop.circle.fill")
                         .font(.largeTitle)
+                        .foregroundColor(Color.black )
+                }
                 }
                 .padding(.top, 10)
                     .padding(.leading, 20)
@@ -62,6 +65,7 @@ struct ContentView: View {
                     Image(systemName: "plus")
                         .font(.system(size: 30))
                         .foregroundColor(Color.white)
+                    
                 }
                 .padding(10)
                 .shadow(radius: 10)
