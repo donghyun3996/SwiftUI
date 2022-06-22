@@ -8,8 +8,17 @@
 import SwiftUI
 
 struct profileView: View{
+    
+    @Binding var isNavigationBarHidden: Bool
+    
+    init(isNavigationBarHidden: Binding<Bool> = .constant(false )){
+        
+        _isNavigationBarHidden = isNavigationBarHidden
+    }
+    
+    
     var body: some View{
-        NavigationView{
+//        NavigationView{
          
             ScrollView{
         VStack(){
@@ -53,9 +62,8 @@ struct profileView: View{
         }
         
         }
-            
-        }
-        .navigationTitle("내 프로필")
+            .navigationTitle("내 프로필")
+        
         .navigationBarItems( trailing:
                                 Button(
                                     action:{ print("호호")
@@ -67,6 +75,13 @@ struct profileView: View{
                                         }
                                     }
         )
+
+            .onAppear{
+                self.isNavigationBarHidden = false
+            }
+//        }
+
+        
     }
 }
 

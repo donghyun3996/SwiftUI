@@ -25,7 +25,7 @@ struct ContentView: View {
                         .foregroundColor(Color.black)
                     }
                     Spacer()
-                    NavigationLink(destination: profileView()){
+                    NavigationLink(destination: profileView(isNavigationBarHidden: self.$isNavigationBarHidden)){
                     Image(systemName: "person.crop.circle.fill")
                         .font(.largeTitle)
                         .foregroundColor(Color.black )
