@@ -5,4 +5,17 @@
 //  Created by 동현 on 2022/06/27.
 //
 
-import Foundation
+import SwiftUI
+
+struct MyTabView: View{
+    var body: some View{
+        Text("ddd")
+    }
+}
+
+
+struct MyTabView_Previews: PreviewProvider {
+    static var previews: some View {
+        MyTabView()
+    }
+}
