@@ -9,7 +9,29 @@ import SwiftUI
 
 struct MyTabView: View{
     var body: some View{
-        Text("ddd")
+        TabView
+        {
+            Text("1번")
+                .fontWeight(.black)
+                .font(.largeTitle)
+                .tabItem{
+                    Image(systemName: "airplane")
+                }
+            Text("2번")
+            
+                .fontWeight(.black)
+                .font(.largeTitle)
+                .tabItem{
+                    Image(systemName: "airplane")
+                }
+            Text("3번")
+            
+                .fontWeight(.black)
+                .font(.largeTitle)
+                .tabItem{
+                    Image(systemName: "airplane")
+                }
+        }
     }
 }
 
