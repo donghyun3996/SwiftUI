@@ -11,26 +11,19 @@ struct MyTabView: View{
     var body: some View{
         TabView
         {
-            Text("1번")
-                .fontWeight(.black)
-                .font(.largeTitle)
+            MyView(title: "1", bgColor: Color.red)
                 .tabItem{
                     Image(systemName: "airplane")
-                }
-            Text("2번")
+                }.tag(0)
             
-                .fontWeight(.black)
-                .font(.largeTitle)
+            MyView(title: "2", bgColor: Color.blue)
                 .tabItem{
-                    Image(systemName: "airplane")
-                }
-            Text("3번")
-            
-                .fontWeight(.black)
-                .font(.largeTitle)
+                    Image(systemName: "flame.fill")
+                }.tag(1)
+            MyView(title: "3", bgColor: Color.orange)
                 .tabItem{
-                    Image(systemName: "airplane")
-                }
+                    Image(systemName: "doc.fill")
+                }.tag(2)
         }
     }
 }

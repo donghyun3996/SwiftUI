@@ -28,13 +28,13 @@ struct profileView: View{
                     .padding(.vertical, 20)
                 
                 
-                Text("리본 돼지")
+                Text("리본 현승")
                     .font(.system(size: 30))
                     .fontWeight(.black)
                 
                 Spacer().frame(height: 20)
                 
-                Text("돼지 사냥")
+                Text("현승 사냥")
                     .font(.system(size: 25))
                     .fontWeight(.black)
                 
