@@ -20,6 +20,7 @@
 		C98A8F0328450A640015B70C /* MyNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98A8F0228450A640015B70C /* MyNavigationView.swift */; };
 		C99136722860BA19001FA079 /* profileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99136712860BA19001FA079 /* profileView.swift */; };
 		C9D4EAAE2875C799008496F3 /* MyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D4EAAD2875C799008496F3 /* MyView.swift */; };
+		C9D4EAB02875CDC8008496F3 /* MyCustomTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D4EAAF2875CDC8008496F3 /* MyCustomTabView.swift */; };
 		C9F673F6281A81940063070F /* MyProjectCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F673F5281A81940063070F /* MyProjectCard.swift */; };
 /* End PBXBuildFile section */
 
@@ -38,6 +39,7 @@
 		C98A8F0228450A640015B70C /* MyNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyNavigationView.swift; sourceTree = "<group>"; };
 		C99136712860BA19001FA079 /* profileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profileView.swift; sourceTree = "<group>"; };
 		C9D4EAAD2875C799008496F3 /* MyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyView.swift; sourceTree = "<group>"; };
+		C9D4EAAF2875CDC8008496F3 /* MyCustomTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCustomTabView.swift; sourceTree = "<group>"; };
 		C9F673F5281A81940063070F /* MyProjectCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProjectCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -74,6 +76,7 @@
 				C925DC4A2816DF5C00AF3DC1 /* SwiftUI_Stack_tutorialApp.swift */,
 				C925DC4C2816DF5C00AF3DC1 /* ContentView.swift */,
 				C962C1932869CD4B00AC614B /* MyTabView.swift */,
+				C9D4EAAF2875CDC8008496F3 /* MyCustomTabView.swift */,
 				C9D4EAAD2875C799008496F3 /* MyView.swift */,
 				C98A8F0228450A640015B70C /* MyNavigationView.swift */,
 				C99136712860BA19001FA079 /* profileView.swift */,
@@ -175,6 +178,7 @@
 				C925DC4D2816DF5C00AF3DC1 /* ContentView.swift in Sources */,
 				C962C1922863596B00AC614B /* MyGeometryReader.swift in Sources */,
 				C98A8EFD283E711E0015B70C /* MyBasicCard.swift in Sources */,
+				C9D4EAB02875CDC8008496F3 /* MyCustomTabView.swift in Sources */,
 				C98A8EFF283FC7820015B70C /* MyCard.swift in Sources */,
 				C925DC4B2816DF5C00AF3DC1 /* SwiftUI_Stack_tutorialApp.swift in Sources */,
 				C98A8F012844E5E70015B70C /* MyList.swift in Sources */,
