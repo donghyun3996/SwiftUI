@@ -123,10 +123,11 @@ struct MyCustomtabView: View{
                             .offset(y: self.tabIndex == .profile ? -10 : 0)
                     }.background(Color.white)
                 }
+                
             }
         }.edgesIgnoringSafeArea(.all)
     }
-}
+} 
 
 
 struct MyCustomtabView_Previews: PreviewProvider {
